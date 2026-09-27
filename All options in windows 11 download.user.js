@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     All options in windows 11 download
 // @namespace    Elijah Vallette
-// @version  1.0.0
+// @version  1.1.0
 // @description  Allows you to use windows 7-11 in windows 11 download iso options! ALERT: this is made by a person called bmsimons on github, I only ported this to userscripts and modified it a bit. their link is https://gist.github.com/bmsimons/f2bc1db9d4bd1e46383ae16714e1d318
 // @author       Elijah Vallette
 // @match    https://www.microsoft.com/en-us/software-download/windows11
