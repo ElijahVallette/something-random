@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     All options in windows 11 download
 // @namespace    Elijah Vallette
-// @version  1.2.0
+// @version  2.0.0
 // @description  Allows you to use windows 7-11 in windows 11 download iso options! ALERT: this is made by a person called bmsimons on github, I only ported this to userscripts and modified it a bit. their link is https://gist.github.com/bmsimons/f2bc1db9d4bd1e46383ae16714e1d318
 // @author       Elijah Vallette
 // @match    https://www.microsoft.com/en-us/software-download/windows11
@@ -9,6 +9,10 @@
 // @match    https://www.microsoft.com/en-us/software-download/windows11?msockid=05518674bf3160e23b729514bee261c9
 // @match    https://www.microsoft.com/en-us/software-download/mediafeaturepack
 // @match    https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
+// @match    https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewserver
+// @match    https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewARM64
+// @match    https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK
+// @match    https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewADK
 // @downloadURL https://update.greasyfork.org/scripts/597732/All%20options%20in%20windows%2011%20download.user.js
 // @updateURL https://update.greasyfork.org/scripts/597732/All%20options%20in%20windows%2011%20download.meta.js
 // ==/UserScript==
@@ -38,4 +42,26 @@ $("select#product-edition").append(`
 <option value="3692">Release Preview (Build 26300.9278) - 26H2</option>
 <option value="3690">Release Preview (Build 26300.9278) - 26H2 - Enterprise SKU</option>
 <option value="3691">Release Preview (Build 26300.9278) - 26H2 - Home China SKU</option>
+<option value="3872">Windows Server VNext Preview ISO (Canary) - Build 29683</option>
+<option value="3871">Windows Server VNext Preview VHDX (Canary) - Build 29683</option>
+<option value="3870">Windows Server VNext Azure Edition Preview ISO (Canary) - Build 29683</option>
+<option value="3873">Windows Server VNext Azure Edition Preview VHDX (Canary) - Build 29683</option>
+<option value="3054">Windows Server VNext Annual Channel for Containers (Canary) – Build 26085</option>
+<option value="3869">Microsoft Server Language and Optional Features Preview (Canary) - Build 29683</option>
+<option value="3295">Windows Admin Center "Modernized Gateway" - Build 2511</option>
+<option value="3380">Windows 11 Client Arm64 Insider Preview (Experimental) - Build 29576.1000</option>
+<option value="3253">Windows 11 Client Arm64 Insider Preview (Dev) - Build 26200.5074</option>
+<option value="2198">Windows 11 Client Arm64 Insider Preview (Beta) - Build 26100.1150</option>
+<option value="3346">Windows Insider Preview SDK (Canary) - Build 28000</option>
+<option value="3233">Windows Insider Preview SDK (Dev) - Build 26100.5733</option>
+<option value="3904">Windows ADK Insider Preview (Experimental - Future Platforms) - Build 29695.1001</option>
+<option value="3908">Windows ADK Insider Preview (Experimental - 26H2) - Build 26100.9767</option>
+<option value="3906">Windows ADK Insider Preview (Experimental - 26H1) - Build 28000.3302</option>
+<option value="3905">Windows PE add-on for Windows ADK (Experimental - Future Platforms) - Build 29695.1001</option>
+<option value="3909">Windows PE add-on for Windows ADK (Experimental - 26H2) - Build 26100.9767</option>
+<option value="3907">Windows PE add-on for Windows ADK (Experimental - 26H1) - Build 28000.3302</option>
+<option value="3346">Windows Insider Preview SDK Driver Kit (Canary) - Build 28000</option>
+<option value="3233">Windows Insider Preview SDK Driver Kit (Dev) - Build 26100.5733</option>
+<option value="3345">Windows Insider Preview WDK (Canary) - Build 28000</option>
+<option value="3345">Windows Insider Preview WDK (Dev) - Build 28000</option>
 `);
